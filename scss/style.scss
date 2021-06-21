@@ -11,9 +11,9 @@ $hulu: 'Nunito Sans', sans-serif;
 $heading: 'Montserrat', sans-serif;
 $body: 'Roboto', sans-serif;
 
-body {
-  background: linear-gradient(to right, $aqua, $green);
-}
+// body {
+//   background: linear-gradient(to right, $aqua, $green);
+// }
 
 .containere {
   background: $white;
@@ -25,7 +25,7 @@ body {
   box-shadow: 2px 5px 20px rgba($gray, .5);
 }
 
-.logo {
+.logo1 {
   float: right;
   margin-right: 12px;
   margin-top: 12px;
