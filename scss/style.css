@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,900|Montserrat|Roboto");
 .containere {
   background: #E8EAEE;
-  width: 540px;
+  width: 850px;
   min-height: 480px;
-  margin: 0 auto;
+  -webkit-margin-start: 100px;
+          margin-inline-start: 100px;
   position: relative;
-  margin-top: 10%;
-  -webkit-box-shadow: 2px 2px 31px 10px rgba(9, 13, 27, 0.31);
-          box-shadow: 2px 2px 31px 10px rgba(9, 13, 27, 0.31);
+  margin-top: 50px;
+  -webkit-box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
+          box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.logo1 {
+.logo {
   float: right;
   margin-right: 12px;
   margin-top: 12px;
@@ -22,26 +26,55 @@
   letter-spacing: 1px;
 }
 
-.leftbox {
-  float: left;
-  top: 5%;
-  left: 5%;
+.CTA {
+  width: 80px;
+  height: 40px;
+  right: -20px;
+  bottom: 0;
+  margin-bottom: 90px;
   position: absolute;
-  width: 15%;
-  height: auto;
-  background: #F1F3F9;
+  z-index: 1;
+  background: #7ED386;
+  font-size: 1em;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.CTA h1 {
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+.CTA:hover {
+  background: #3FB6A8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.leftbox {
+  background: #D1D6DD;
   border: 2px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-shadow: 3px 4px 20px -4px rgba(64, 89, 166, 0.3);
           box-shadow: 3px 4px 20px -4px rgba(64, 89, 166, 0.3);
   border-radius: 63px;
+  float: left;
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  width: 9%;
+  height: 90%;
 }
 
 nav a {
   list-style: none;
   padding: 30px;
-  color: #556882;
+  color: #5D6F87;
   font-size: 1.1em;
   display: block;
   -webkit-transition: all .3s ease-in-out;
@@ -49,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #3FB6A8;
+  color: #001c43;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   cursor: pointer;
@@ -60,20 +93,20 @@ nav a:first-child {
 }
 
 .active {
-  color: #3FB6A8;
+  color: #001c43;
 }
 
 .rightbox {
   float: right;
-  width: 60%;
+  width: 100%;
   height: 100%;
 }
 
 .profile, .payment, .subscription, .privacy, .settings {
   -webkit-transition: opacity .5s ease-in;
   transition: opacity .5s ease-in;
-  position: absolute;
-  width: 70%;
+  margin-left: 20rem;
+  margin-bottom: 5rem;
 }
 
 .containere h1 {
@@ -88,7 +121,6 @@ nav a:first-child {
   color: #777777;
   font-family: "Roboto", sans-serif;
   width: 80%;
-  text-transform: uppercase;
   font-size: 8px;
   letter-spacing: 1px;
   margin-left: 2px;
@@ -113,20 +145,6 @@ nav a:first-child {
   color: #777777;
 }
 
-.btn {
-  float: right;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-size: 10px;
-  border: none;
-  color: #556882;
-}
-
-.btn:hover {
-  text-decoration: underline;
-  font-weight: 900;
-}
-
 .containere input {
   border: 1px solid #dddddd;
   font-family: "Roboto", sans-serif;
@@ -143,7 +161,7 @@ nav a:first-child {
 }
 
 .noshow {
-  opacity: 0;
+  display: none;
 }
 
 footer {
@@ -171,4 +189,3 @@ footer a {
 footer a:hover {
   color: #7d7d7d;
 }
-/*# sourceMappingURL=style.css.map */

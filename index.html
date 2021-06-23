@@ -37,48 +37,109 @@
           </div>
         </div>
       </nav>
-
+    <div class="grid-container">
       <div class="containere">
-        <div id="logo"><h1 class="logo1">hulu</h1>
+        <!-- <div id="logo"><h1 class="logo1">hulu</h1>
           <div class="CTA">
             </div>
-        </div>
+        </div> -->
         <div class="leftbox">
           <nav>
-            <a id="profile" class="active"><i class="fa fa-user"></i></a>
-            <a id="payment"><i class="fa fa-credit-card"></i></a>
-            <a id="subscription"><i class="fa fa-tv"></i></a>
-            <a id="privacy"><i class="fa fa-tasks"></i></a>
-            <a id="settings"><i class="fa fa-cog"></i></a>
+            <a id="profile" class="active"><i class="fa fa-envelope"></i></a>
+            <a id="payment"><i class="fa fa-wifi"></i></a>
+            <a id="subscription"><i class="fa fa-id-card-o"></i></a>
+            <a id="privacy"><i class="fa fa-file"></i></a>
+            <a id="settings"><i class="fa fa-link"></i></a>
           </nav>
         </div>
         <div class="rightbox">
           <div class="profile">
-            <h1>Personal Info</h1>
-            <h2>Full Name</h2>
-            <p>Julie Park <button class="btn">update</button></p>
-            <h2>Birthday</h2>
-            <p>July 21</p>
-            <h2>Gender</h2>
-            <p>Female</p>
-            <h2>Email</h2>
-            <p>example@example.com <button class="btn">update</button></p>
-            <h2>Password </h2>
-            <p>••••••• <button class="btn">Change</button></p>
+            <div class="sform">
+              <h2 class="title">Email QR</h2>
+                          <form method="POST">
+                              <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">E-Mail :</label>
+                                          <input class="input--style-4" type="text" name="first_name">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Subject :</label>
+                                          <div class="input-group-icon">
+                                              <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                              <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label" >Body :</label>
+                                          <input class="input--style-4" style="line-height: 100px" type="email" name="email">
+                                      </div>
+                                  </div>
+                              
+                              </div>
+                              <div class="p-t-15">
+                                  <button class="btn btn--radius-2 btn--blue" type="submit">Generate</button>
+                              </div>
+                          </form>
+                        </div>
           </div>
           
           <div class="payment noshow">
-            <h1>Payment Info</h1>
-            <h2>Payment Method</h2>
-            <p>Mastercard •••• •••• •••• 0000 <button class="btn">update</button></p>
-            <h2>Billing Address</h2>
-            <p>1234 Example Ave | Seattle, WA <button class="btn">change</button></p>
-            <h2>Zipcode</h2>
-            <p>999000</p>
-            <h2>Billing History</h2>
-            <p>2018<button class="btn">view</button></p>
-            <h2>Redeem Gift Subscription </h2>
-            <p><input type="text" placeholder="Enter Gift Code"></input> <button class="btn">Redeem</button></p>
+            <div class="sform">
+              <h2 class="title">Wifi QR</h2>
+                          <form method="POST">
+                              <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Wifi ID :</label>
+                                          <input class="input--style-4" type="text" name="first_name">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Password :</label>
+                                          <div class="input-group-icon">
+                                              <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                              <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="row ">
+                                <div class="col-2">
+                                  <div class="input-group">
+                                      <label class="label">Encryption :</label>
+                                      <div class="p-t-10">
+                                          <label class="radio-container m-r-45">Male
+                                              <input type="radio" checked="checked" name="gender">
+                                              <span class="checkmark"></span>
+                                          </label>
+                                          <label class="radio-container">Female
+                                              <input type="radio" name="gender">
+                                              <span class="checkmark"></span>
+                                          </label>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              </div>
+                              <div class="p-t-15">
+                                  <button class="btn btn--radius-2 btn--blue" type="submit">Generate</button>
+                              </div>
+                          </form>
+                        </div>
           </div>
       
           <div class="subscription noshow">
@@ -131,6 +192,36 @@
           
         </div>
       </div>
+      <div class="containerc">
+        <div class="profile-card-4 text-center"><img src="Group6.svg" class="img img-responsive">
+          <div class="profile-content">
+            <div class="profile-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</div>
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="profile-overview">
+                  <p>TWEETS</p>
+                  <h4>1300</h4>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="profile-overview">
+                  <p>FOLLOWERS</p>
+                  <h4>250</h4>
+                </div>
+              </div>
+              <div class="col-xs-4">
+                <div class="profile-overview">
+                  <p>FOLLOWING</p>
+                  <h4>168</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
       <br><br><br><br><br><br>
       <div class="containerp">
         <div class="row">
@@ -177,7 +268,134 @@
             </div>
           </div>
       </div>
+      <br><br><br><br>
+      <div class="containert">
+        <div class="row">
+          
+              <div class="timeline-centered">
+      
+              <article class="timeline-entry">
+      
+                  <div class="timeline-entry-inner">
+      
+                      <div class="timeline-icon bg-success">
+                          <i class="entypo-feather">1</i>
+                      </div>
+      
+                      <div class="timeline-label">
+                        <section id="hero" class="d-flex align-items-center">
 
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                                <h1 data-aos="fade-up">Select which type</h1>
+                                <h2 data-aos="fade-up" data-aos-delay="400">
+                                  You may choose from URL, vCard, Plain Text, Email, SMS, Twitter, WiFi, and Bitcoin. However, these free QR Codes are not editable and trackable.</h2>
+                                <div data-aos="fade-up" data-aos-delay="800">
+                                </div>
+                              </div>
+                              <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                                <img src="Group 24.svg" class="img-fluid animated" alt="" style="margin-left: 100px;">
+                              </div>
+                            </div>
+                          </div>
+                      
+                        </section>
+                      </div>
+                  </div>
+      
+              </article>
+      
+      
+              <article class="timeline-entry">
+      
+                  <div class="timeline-entry-inner">
+      
+                      <div class="timeline-icon bg-secondary">
+                          <i class="entypo-suitcase">2</i>
+                      </div>
+      
+                      <div class="timeline-label">
+                        <section id="hero" class="d-flex align-items-center">
+
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                                <h1 data-aos="fade-up">Fill in the details</h1>
+                                <h2 data-aos="fade-up" data-aos-delay="400">
+                                  Enter all the information needed in the fields that appear. This could be a link, contact information, text or any other type of info. Once you’re done, select “Generate.”</h2>
+                                <div data-aos="fade-up" data-aos-delay="800">
+                                </div>
+                              </div>
+                              <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                                <img src="Group 25.svg" class="img-fluid animated" alt="" style="margin-left: 100px;">
+                              </div>
+                            </div>
+                          </div>
+                      
+                        </section>
+                      </div>
+                  </div>
+      
+              </article>
+      
+      
+              <article class="timeline-entry">
+      
+                  <div class="timeline-entry-inner">
+      
+                      <div class="timeline-icon bg-info">
+                          <i class="entypo-location">3</i>
+                      </div>
+      
+                      <div class="timeline-label">
+                          <h2><a href="#">Arlind Nushi</a> <span>checked in at</span> <a href="#">Laborator</a></h2>
+      
+                          <blockquote>Great place, feeling like in home.</blockquote>
+    
+                      </div>
+                  </div>
+      
+              </article>
+      
+      
+              <article class="timeline-entry">
+      
+                  <div class="timeline-entry-inner">
+      
+                      <div class="timeline-icon bg-warning">
+                          <i class="entypo-camera"></i>
+                      </div>
+      
+                      <div class="timeline-label">
+                          <h2><a href="#">Arber Nushi</a> <span>changed his</span> <a href="#">Profile Picture</a></h2>
+      
+                          <blockquote>Pianoforte principles our unaffected not for astonished travelling are particular.</blockquote>
+      
+                          <img src="http://themes.laborator.co/neon/assets/images/timeline-image-3.png" class="img-responsive img-rounded full-width">
+                      </div>
+                  </div>
+      
+              </article>
+      
+      
+              <article class="timeline-entry begin">
+      
+                  <div class="timeline-entry-inner">
+      
+                      <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                          <i class="entypo-flight"></i> +
+                      </div>
+      
+                  </div>
+      
+              </article>
+      
+          </div>
+      
+          
+        </div>
+      </div>
       <script>$("nav a").click(function (e) {
         e.preventDefault();
         $("nav a").removeClass("active");
