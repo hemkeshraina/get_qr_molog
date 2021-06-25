@@ -32,7 +32,7 @@
               </li>
               
               <li id="button-link1"><a href='#'>Sign In</a></li>
-              <li id="button-link"><a href="https://hemkeshraina.github.io/get_qr_molog/signup">Sign Up</a></li>
+              <li id="button-link"><a target="_self" href="https://hemkeshraina.github.io/get_qr_molog/signup">Sign Up</a></li>
             </ul>
           </div>
         </div>
@@ -43,8 +43,8 @@
           <div class="CTA">
             </div>
         </div> -->
-        <div class="leftbox">
-          <nav>
+        <div class="leftbox mainn">
+          <nav >
             <a id="profile" class="active"><i class="fa fa-envelope"></i></a>
             <a id="payment"><i class="fa fa-wifi"></i></a>
             <a id="subscription"><i class="fa fa-id-card-o"></i></a>
@@ -705,9 +705,9 @@
           </div>
         </div>
       </footer>
-      <script>$("nav a").click(function (e) {
+      <script>$(".mainn nav a").click(function (e) {
         e.preventDefault();
-        $("nav a").removeClass("active");
+        $(".mainn nav a").removeClass("active");
         $(this).addClass("active");
         if (this.id === !"payment") {
           $(".payment").addClass("noshow");
