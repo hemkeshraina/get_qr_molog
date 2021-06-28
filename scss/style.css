@@ -2,7 +2,7 @@
 .containere {
   background: #E8EAEE;
   width: 850px;
-  min-height: 480px;
+  min-height: 610px;
   -webkit-margin-start: 100px;
           margin-inline-start: 100px;
   position: relative;
@@ -13,6 +13,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.containere:first-child {
+  margin-right: 2rem;
 }
 
 .logo {
@@ -83,17 +87,11 @@ nav a {
 
 nav a:hover {
   color: #001c43;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
   cursor: pointer;
 }
 
 nav a:first-child {
   margin-top: 7px;
-}
-
-.active {
-  /* color: #001c43; */
 }
 
 .rightbox {

@@ -14,7 +14,7 @@ $body: 'Roboto', sans-serif;
 .containere { 
   background: #E8EAEE;
   width: 850px;
-  min-height: 480px;
+  min-height: 610px;
   margin-inline-start: 100px;
   position: relative;
   margin-top: 50px;
@@ -22,7 +22,9 @@ $body: 'Roboto', sans-serif;
   border-radius: 50px;
   display: flex;
 }
-
+.containere:first-child{
+  margin-right: 2rem;
+}
 .logo {
   float: right;
   margin-right: 12px;
@@ -81,7 +83,7 @@ nav a {
   transition: all .3s ease-in-out;
   &:hover {
     color: #001c43;
-    transform: scale(1.2);
+    // transform: scale(1.2);
     cursor: pointer;
   }
   &:first-child {
