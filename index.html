@@ -31,8 +31,8 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Chrome apk</a>   
               </li>
               
-              <li id="button-link1"><a target="_self" href='https://hemkeshraina.github.io/get_qr_molog/login'>Sign In</a></li>
-              <li id="button-link"><a target="_self" href="https://hemkeshraina.github.io/get_qr_molog/signup">Sign Up</a></li>
+              <li id="button-link1"><a target="_self" style="margin-top: 0px;" href='https://hemkeshraina.github.io/get_qr_molog/login'>Sign In</a></li>
+              <li id="button-link"><a target="_self" style="margin-top: 0px;" href="https://hemkeshraina.github.io/get_qr_molog/signup">Sign Up</a></li>
             </ul>
           </div>
         </div>
@@ -122,11 +122,15 @@
                                   <div class="input-group">
                                       <label class="label">Encryption :</label>
                                       <div class="p-t-10">
-                                          <label class="radio-container m-r-45">Male
+                                          <label class="radio-container m-r-45">None
                                               <input type="radio" checked="checked" name="gender">
                                               <span class="checkmark"></span>
                                           </label>
-                                          <label class="radio-container">Female
+                                          <label class="radio-container">WPA3/WPA2
+                                              <input type="radio" name="gender">
+                                              <span class="checkmark"></span>
+                                          </label>
+                                          <label class="radio-container">WEP
                                               <input type="radio" name="gender">
                                               <span class="checkmark"></span>
                                           </label>
@@ -583,29 +587,23 @@
           </div>
         </div>
       <div class="cform">
-        <div class="container-fluid px-1 py-5 mx-auto">
-          <div class="row d-flex justify-content-center">
-              <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-                  <h3>Any more Questions?</h3>
-                  <p class="blue-text">fill the form and we will get back to you</p>
-                  <div class="card"> 
-                      <form class="form-card" onsubmit="event.preventDefault()">
-                          <div class="row justify-content-between text-left">
-                              <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Name<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="Enter your name" onblur="validate(1)"> </div>
-                              <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Company<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="Enter company name" onblur="validate(2)"> </div>
-                          </div>
-                          <div class="row justify-content-between text-left">
-                              <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Business email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
-                              <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Phone number<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
-                          </div>                  
-                          <div class="row justify-content-end">
-                              <div class="form-group col-sm-6"> <button type="submit" class="bttn-block bttn-primary">Submit</button> </div>
-                          </div>
-                      </form>
-                  </div>
-              </div>
+        <form class="form-inline" action="/action_page.php">
+          <h1>Any more Questions?</h1>
+          <h3>fill the form and we will get back to you</h3><br>
+          <div class="row1">
+            <label for="email">Name:</label>
+            <input type="email" id="email" placeholder="Enter email" name="email">
+            <label for="pwd">Company Name:</label>
+            <input type="password" id="pwd" placeholder="Enter password" name="pswd">
           </div>
-       </div>
+          <div class="row1">
+            <label for="email">Phone Number:</label>
+            <input type="email" id="email" placeholder="Enter email" name="email">
+            <label for="pwd">Email:</label>
+            <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </div>
       <br><br><br><br>
       <footer id="footer" class="footer-1">

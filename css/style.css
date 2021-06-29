@@ -30,7 +30,7 @@ body
 #link a
 {
   color:#01325d;
-  margin:0 10px 0 10px;
+  /* margin:0 10px 0 10px; */
   letter-spacing:1.5px;
 }
 /* navigation link with right border */
@@ -58,7 +58,7 @@ body
   border-color: rgba(0,0,0,.2);
   border-radius: 50px;
   background-color: #232e3d;
-  line-height: 17px;
+  /* line-height: 17px; */
 }
 
 #button-link1 :hover {
@@ -187,13 +187,14 @@ width: 120px;/*margin-top: -61px;*/
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    padding: 0 100px;
+    padding: 0 10px;
     font-size: 16px;
     color: #666;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    width: 35rem;
   }
   
   .sform .input--style-4::-webkit-input-placeholder {
@@ -277,7 +278,7 @@ width: 120px;/*margin-top: -61px;*/
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #57b846;
+    background: #8566FF;
   }
   
   .sform .checkmark {
@@ -298,6 +299,8 @@ width: 120px;/*margin-top: -61px;*/
     -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
     box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    margin-left:10px;
+    margin-right:3px;
   }
   
   .sform .checkmark:after {
@@ -1233,129 +1236,87 @@ text-align: left;
 
 /* cform */
 
-.cform{
-  margin-top: 50px;
+/* Style the form - display items horizontally */
+.form-inline {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: #D5D9E0;
-  
-}
-.cform .card {
-  display: flex;
-  justify-content: center;
-  padding: 30px 40px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  border: none !important;
-  margin-left:30vh;
-  
+  align-items: center;
+  background: #EAECF8;
 }
 
-.cform .blue-text {
-  font-family: 'Source Sans Pro',sans-serif;
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-  margin-left:55vh;
+  font-size: 24px;
   color: #344FA1;
-  }
-
-.cform .form-control-label {
-  font-family: 'Source Sans Pro',sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  color: #344FA1;
-  display: flex;
-  /* justify-content: center; */
-  margin-bottom: 0;
-  margin-left:30vh;
-  margin-bottom: 20px;
+  width:15rem;
 }
 
-.cform input{
-  display: flex;
-  justify-content: center;
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
   background: #FFFFFF;
-  box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
-  border-radius: 50px !important;
-  padding: 15px 46px;
-  /* margin: 5px; */
-  margin:0 15em;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  font-size: 18px !important;
-  margin-bottom: 40px;
-  font-weight: 300;
-  width: 100%;
-}
-.cform textarea {
-  background: #FFFFFF;
-  box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
-  border-radius: 50px !important;
-  padding: 15px 26px;
-  /* margin: 5px; */
-  /* margin:0 10em; */
-  /* margin: auto; */
-  /* margin-right:50px; */
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  font-size: 18px !important;
-  font-weight: 300;
-  text-align: center;
-}
-
-.cform input:focus,.cform textarea:focus {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  border: 1px solid #00BCD4;
-  outline-width: 0;
-  font-weight: 400
-}
-
-.cform .bttn-block {
-  background: #8566FF;
-  border:none;
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  display: flex;
-  padding: 15px 60px;
-  justify-content: center;
-  text-transform: uppercase;
-  font-size: 15px !important;
-  font-weight: 400;
-  cursor: pointer;
-  margin-top: 30px;
-  margin-left:62vh;
+  display:block;
 }
 
-.cform .bttn-block:hover {
-  color: #fff !important
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  border:none;
+  color: white;
+  background: #8566FF;
+  box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
 }
 
-.cform button:focus {
-  -moz-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-  outline-width: 0
+.form-inline button:hover {
+  background-color: royalblue;
 }
-.cform h3{
-  font-family:'Source Sans Pro',sans-serif;
+
+.form-inline h1{
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  line-height: 60px;
-  /* text-align: center; */
+  text-align: center;
   color: #344FA1;
-  margin-top: 40px;
-  margin-left:60vh;
-}
 
+}
+ 
+.form-inline h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #344FA1;
+}
+.form-inline .row1{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  width: 80%;
+}
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
 .faq h1{
   font-family: 'Source Sans Pro',sans-serif;
   font-style: normal;
