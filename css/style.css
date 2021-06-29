@@ -1237,16 +1237,49 @@ text-align: left;
 /* cform */
 
 /* Style the form - display items horizontally */
-.form-inline {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.cform{
   background: #EAECF8;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.cform h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: #344FA1;
+  margin-bottom:10px;
 }
 
+.cform h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #344FA1;
+  margin-bottom:30px;
+}
+
+.form-inline {
+  background: #EAECF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+.form-inline span{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #344FA1;
+  width:15rem;
+  margin-left: 1rem;
+}
 /* Add some margins for each label */
-.form-inline label {
+/* .form-inline label {
   margin: 5px 10px 5px 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
@@ -1254,58 +1287,39 @@ text-align: left;
   font-size: 24px;
   color: #344FA1;
   width:15rem;
-}
+} */
 
 /* Style the input fields */
 .form-inline input {
   vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
+  padding: 15px 50px;
   border: 1px solid #ddd;
   background: #FFFFFF;
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  display:block;
+  
 }
-
+.form_group{
+  margin-right: 8rem;
+  margin-bottom: 5rem;
+}
 /* Style the submit button */
-.form-inline button {
+.cform button {
   padding: 10px 20px;
   border:none;
   color: white;
   background: #8566FF;
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  display:flex;
+  /* justify-content: center; */
+  margin: auto;
 }
 
-.form-inline button:hover {
+.cform button:hover {
   background-color: royalblue;
 }
 
-.form-inline h1{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  text-align: center;
-  color: #344FA1;
-
-}
- 
-.form-inline h3{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  text-align: center;
-  color: #344FA1;
-}
-.form-inline .row1{
-  display:flex;
-  justify-content: space-between;
-  align-items:flex-start;
-  width: 80%;
-}
 /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
 @media (max-width: 800px) {
   .form-inline input {
