@@ -50,6 +50,10 @@
             <a id="subscription"><i class="fa fa-id-card-o"></i></a>
             <a id="privacy"><i class="fa fa-file"></i></a>
             <a id="settings"><i class="fa fa-link"></i></a>
+            <a id="mobile"><i class="fa fa-mobile" style="font-size:1.5em;"></i></a>
+            <a id="bitcoin"><i class="fa fa-bitcoin"></i></a>
+            <a id="twitter"><i class="fa fa-twitter"></i></a>
+            <a id="facebook"><i class="fa fa-facebook"></i></a>
           </nav>
         </div>
         <div class="rightbox">
@@ -81,7 +85,7 @@
                                   <div class="col-2">
                                       <div class="input-group">
                                           <label class="label" >Body :</label>
-                                          <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                                          <textarea name="textarea" style="width:350px;height:100px;"></textarea>
                                       </div>
                                   </div>
                               
@@ -281,17 +285,193 @@
                         </div>
           </div>
        <div class="settings noshow">
-            <h1>Account Settings</h1>
-            <h2>Sync Watchlist to My Stuff<button class="btn">sync</button></h2>
-            <p></p>
-            <h2>Hold Your Subscription<button class="btn">hold</button></h2>
-            <p></p>
-            <h2>Cancel Your Subscription <button class="btn">cancel</button></h2>
-            <p></p>
-            <h2>Your Devices <button class="btn">Manage Devices</button></h2>
-            <p></p>
-         <p></p>
+          <div class="sform">
+            <h2 class="title">Enter URL here</h2>
+                        <form method="POST">
+                            <div class="row ">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label" >Link :</label>
+                                        <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            <div class="p-t-15">
+                                <button class="dot--button btn btn--radius-2 dotbutton" style="background: #FFFFFF;color:#001c43;border: 1px solid;border-color: #001c43;border-style: dashed;margin-top:8rem"type="submit"><i class="fa fa-upload" aria-hidden="true"></i><b> upload any file type</b> (.jpg,.docx,.pptx )</button>
+                            </div>
+                        </form>
+                      </div>
           </div>
+            <div class="mobile noshow">
+              <div class="sform">
+                <h2 class="title">App store QR</h2>
+                            <form method="POST">
+                                <div class="row ">
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label" >Link your app on one page:</label>
+                                            <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="p-t-15">
+                                  <button class="btn btn--radius-2 btn--blue" type="submit" style="margin-top:8rem;">Sign up for free</button>
+                                </div>
+                            </form>
+                          </div>
+              </div>
+              <div class="bitcoin noshow">
+                <div class="sform">
+                  <h2 class="title">Bitcoin QR</h2>
+                              <form method="POST">
+                                <div class="row ">
+                                  <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Cryptocurrency :</label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Bitcoin
+                                                <input type="radio" checked="checked" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Dodge
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Ether
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Dash
+                                              <input type="radio" name="gender">
+                                              <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                  </div>
+                                
+                                </div>
+                                <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">If any other enter the name</label>
+                                          <input class="input--style-4" style="width:53rem" type="email" name="email">
+                                      </div>
+                                  </div>        
+                                </div>
+                                <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Amount</label>
+                                          <input class="input--style-4" style="width:53rem" type="email" name="email">
+                                      </div>
+                                  </div>        
+                                </div>
+                                <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Reciever</label>
+                                          <input class="input--style-4" style="width:53rem" type="email" name="email">
+                                      </div>
+                                  </div>        
+                                </div>
+                                <div class="row ">
+                                  <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Message</label>
+                                          <input class="input--style-4" style="width:53rem" type="email" name="email">
+                                      </div>
+                                  </div>        
+                                </div>
+                                  
+                                  <div class="p-t-15">
+                                    <button class="btn btn--radius-2 btn--blue" type="submit" >Sign up for free</button>
+                                  </div>
+                              </form>
+                            </div>
+                </div>
+                <div class="twitter noshow">
+                  <div class="sform">
+                    <h2 class="title">Twitter QR</h2>
+                                <form method="POST">
+                                  <div class="row ">
+                                    <div class="col-2">
+                                      <div class="input-group">
+                                          <label class="label">Choose an option :</label>
+                                          <div class="p-t-10">
+                                              <label class="radio-container m-r-45">Post
+                                                  <input type="radio" checked="checked" name="gender">
+                                                  <span class="checkmark"></span>
+                                              </label>
+                                              <label class="radio-container">Profile
+                                                  <input type="radio" name="gender">
+                                                  <span class="checkmark"></span>
+                                              </label>                                         
+                                          </div>
+                                      </div>
+                                    </div>
+                                  
+                                  </div>
+                                    <div class="row ">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <label class="label" >Enter your article:</label>
+                                                <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="p-t-15">
+                                      <button class="dot--button btn btn--radius-2 dotbutton" style="background: #FFFFFF;color:#001c43;border: 1px solid;border-color: #001c43;border-style: dashed;margin-top:3rem"type="submit"><i class="fa fa-upload" aria-hidden="true"></i><b> upload any file type</b> (.jpg,.docx,.pptx )</button>
+                                    </div>
+                                    <div class="p-t-15">
+                                      <button class="btn btn--radius-2 btn--blue" style="margin-top:3rem" type="submit" >Sign up for free</button>
+                                    </div>
+                                </form>
+                              </div>
+                  </div>
+                  <div class="facebook noshow">
+                    <div class="sform">
+                      <h2 class="title">Facebook QR</h2>
+                                  <form method="POST">
+                                    <div class="row ">
+                                      <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Choose an option :</label>
+                                            <div class="p-t-10">
+                                                <label class="radio-container m-r-45">Post
+                                                    <input type="radio" checked="checked" name="gender">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container">Profile
+                                                    <input type="radio" name="gender">
+                                                    <span class="checkmark"></span>
+                                                </label>                                         
+                                            </div>
+                                        </div>
+                                      </div>
+                                    
+                                    </div>
+                                      <div class="row ">
+                                          <div class="col-2">
+                                              <div class="input-group">
+                                                  <label class="label" >Enter your article:</label>
+                                                  <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                                              </div>
+                                          </div>
+                                      
+                                      </div>
+                                      <div class="p-t-15">
+                                        <button class="dot--button btn btn--radius-2 dotbutton" style="background: #FFFFFF;color:#001c43;border: 1px solid;border-color: #001c43;border-style: dashed;margin-top:3rem"type="submit"><i class="fa fa-upload" aria-hidden="true"></i><b> upload any file type</b> (.jpg,.docx,.pptx )</button>
+                                      </div>
+                                      <div class="p-t-15">
+                                        <button class="btn btn--radius-2 btn--blue" style="margin-top:3rem" type="submit" >Generate</button>
+                                      </div>
+                                  </form>
+                                </div>
+                    </div>
+          
           
         </div>
       </div>
@@ -828,6 +1008,18 @@
         } else if (this.id === "settings") {
           $(".settings").removeClass("noshow");
           $(".rightbox").children().not(".settings").addClass("noshow");
+        }else if (this.id === "mobile") {
+          $(".mobile").removeClass("noshow");
+          $(".rightbox").children().not(".mobile").addClass("noshow");
+        }else if (this.id === "bitcoin") {
+          $(".bitcoin").removeClass("noshow");
+          $(".rightbox").children().not(".bitcoin").addClass("noshow");
+        }else if (this.id === "twitter") {
+          $(".twitter").removeClass("noshow");
+          $(".rightbox").children().not(".twitter").addClass("noshow");
+        }else if (this.id === "facebook") {
+          $(".facebook").removeClass("noshow");
+          $(".rightbox").children().not(".facebook").addClass("noshow");
         }
       });</script>
 </body>

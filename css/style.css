@@ -537,6 +537,10 @@ width: 120px;/*margin-top: -61px;*/
   background: #4dae3c;
 }
 
+.sform .dot--button:hover{
+  background: #465A76;
+}
+
 .sform .btn--blue {
   background: #001c43;
 }

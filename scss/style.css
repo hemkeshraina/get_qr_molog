@@ -70,17 +70,19 @@
   float: left;
   top: 5%;
   left: 5%;
+  bottom: 5%;
   position: absolute;
-  width: 9%;
+  width: 8%;
   height: 90%;
 }
 
 nav a {
   list-style: none;
-  padding: 30px;
+  padding: 18px;
   color: #5D6F87;
-  font-size: 1.1em;
+  font-size: 1.2em;
   display: block;
+  text-align: center;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -91,7 +93,7 @@ nav a:hover {
 }
 
 nav a:first-child {
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 .rightbox {
@@ -100,7 +102,7 @@ nav a:first-child {
   height: 100%;
 }
 
-.profile, .payment, .subscription, .privacy, .settings {
+.profile, .payment, .subscription, .privacy, .settings, .mobile, .bitcoin, .twitter, .facebook {
   -webkit-transition: opacity .5s ease-in;
   transition: opacity .5s ease-in;
   margin-left: 20rem;
@@ -148,6 +150,7 @@ nav a:first-child {
   font-family: "Roboto", sans-serif;
   padding: 2px;
   margin: 0;
+  width: 100%;
 }
 
 .privacy h2 {
