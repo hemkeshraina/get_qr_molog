@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgba(181,163,255,0.25);
   }
   
   header{
@@ -29,7 +30,7 @@ body{
   
   .logout_btn{
     padding: 5px;
-    color:#8566FF;
+    color:#49398A;
     text-decoration: none;
     float: right;
     margin-top: -1%;
@@ -42,13 +43,13 @@ body{
   }
   
   .logout_btn:hover{
-    color: #8566ff2a;
+    color: #49398A2a;
   }
   
   .sidebar{
     z-index: 1;
     top: 0;
-    background: #8566FF;
+    background: #49398a;
     margin-top: 70px;
     padding-top: 30px;
     position: fixed;
@@ -88,14 +89,15 @@ body{
     text-decoration: none;
     padding-left: 40px;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 0.1s;
     transition-property: background;
+    border-radius:50px;
   }
   
   .sidebar a:hover{
-    color:#8566FF;
+    color:#49398A;
     background: #F4F2FF;
-    border-radius:50px;
+    
     width: 90%;
     margin-left:1rem;
   }
@@ -106,7 +108,7 @@ body{
   
   label #sidebar_btn{
     z-index: 1;
-    color: #8566FF;
+    color: #49398A;
     position: fixed;
     cursor: pointer;
     left: 300px;
@@ -117,7 +119,7 @@ body{
   }
   
   label #sidebar_btn:hover{
-    color:#8566ff7c;
+    color:#49398A7c;
   }
   
   #check:checked ~ .sidebar{
@@ -242,7 +244,7 @@ body{
     }
   
     .mobile_nav_items a:hover{
-        color:#8566FF;
+        color:#49398A;
         background: #F4F2FF;
         border-radius:50px;
         width: 90%;
@@ -301,6 +303,16 @@ body{
   #searchQuerySubmit:hover {
     cursor: pointer;
   }
+  .sidebar h3{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-left: -1rem;
+  }
   
   /* card style */
   .dashtabs {
@@ -348,7 +360,7 @@ body{
       justify-content: space-between;
       align-items: center; }
       .dashtabs_content_nav .heading {
-        color: #8566FF;
+        color: #49398A;
         font-size: 1.4rem;
         font-weight: 500; }
         .dashtabs_content_nav .heading > i {
@@ -395,7 +407,7 @@ body{
       justify-content: space-between;
       align-items: center; }
       .dashheader_user > i {
-        color: #8566FF;
+        color: #49398A;
         font-size: 1.3rem;
         cursor: pointer;
         padding: 1rem;
@@ -405,12 +417,12 @@ body{
       .dashheader_user > div {
         padding: 0.7rem 1rem; }
         .dashheader_user > div > i {
-          color: #8566FF;
+          color: #49398A;
           font-size: 1.3rem;
           cursor: pointer;
           margin-right: 0.5rem; }
         .dashheader_user > div > span {
-          color: #8566FF;
+          color: #49398A;
           font-size: 1.2rem;
           cursor: pointer; }
         .dashheader_user > div:hover {
@@ -419,23 +431,26 @@ body{
   .dashtabs_content {
     position: relative; }
     .dashtabs_content .QRInfo {
-      margin: 6rem 0 2rem 15rem;
+      margin: 1rem 0 2rem 15rem;
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-radius: 50px;
-      background: #F4F2FF;
-      box-shadow: 0 1rem 4rem rgba(136, 135, 161, 0.1); }
+      border-radius: 0px;
+      /* border: 1px solid rgba(133,102,255, 0.5); */
+      background: #ffffff;
+      box-shadow: 0 1rem 2rem rgba(136, 135, 161, 0.4);
+      /* box-shadow: 3px 3px 5px 6px #ccc; */
+       }
       .dashtabs_content .QRInfo_1 {
         width: 50%; }
         .dashtabs_content .QRInfo_1 > span {
           font-size: 1.1rem;
           font-weight: 600;
-          color: #8566FF; }
+          color: #49398A; }
         .dashtabs_content .QRInfo_1 > h3 {
           font-size: 1.5rem;
-          color: #8566FF;
+          color: #49398A;
           margin: 0.5rem 0 1rem 0; }
           .dashtabs_content .QRInfo_1 > h3 > i {
             margin-right: 0.5rem; }
@@ -446,7 +461,7 @@ body{
           flex-wrap: wrap; }
           .dashtabs_content .QRInfo_1 > div > span {
             cursor: pointer;
-            color: #8566FF;
+            color: #49398A;
             width: 40%;
             margin-top: 0.4rem;
             font-size: 1.1rem; }
@@ -460,7 +475,7 @@ body{
           .dashtabs_content .QRInfo_2 > div > p > span {
             display: block;
             font-size: 3rem;
-            color: #8566FF; }
+            color: #49398A; }
           .dashtabs_content .QRInfo_2 > div > p > small {
             font-size: 1.2rem; }
         .dashtabs_content .QRInfo_2 > div > button {
@@ -475,13 +490,33 @@ body{
           height: 10rem;
           margin-left: 2rem; }
       .dashtabs_content .QRInfo_3 > button {
-        border: 4px solid #8566FF;
-        color: #6f4df8;
-        border-radius: 50%;
+        /* color: #6f4df8;
+        border-radius: 5px;
         background: #ffffff;
         padding: 0.5rem;
         font-size: 3rem;
-        cursor: pointer; }
+        cursor: pointer; } */
+        background: hsla(252, 42%, 38%, 1);
+
+        background: linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+
+        background: -moz-linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+
+        background: -webkit-linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49398A", endColorstr="#524175", GradientType=1 );
+        border: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        padding: 15px 32px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2px 2px;
+        cursor: pointer }
   
   .no_content {
     position: absolute;
@@ -495,4 +530,114 @@ body{
       margin-bottom: 3rem; }
     .no_content > h1 {
       color: #777; }
+
+.heading{
+  display: inline;
+  margin-top: 4rem;
   
+}
+
+.heading1 h1{
+  color: #49398A;
+  margin-left: 20rem;
+}
+
+.heading2 h2{
+  color: #49398A;
+  float:right;
+}
+
+.menu {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 26px;
+  display:inline-block;
+}
+
+.menu-item {
+   box-shadow: none;
+}
+.menu-item:hover {
+  background: #292C33;
+  color: #00796b;
+}
+
+.menu-item, .menu-open-button {
+  position: absolute;
+  background: #49398A;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+}
+.menu-open {
+  display: none;
+}
+
+.menu-open-button {
+   z-index: 2;
+   cursor: pointer;
+}
+
+
+.menu-open:checked ~ .menu-item:nth-child(3) {
+  transition-duration: 180ms;
+   -webkit-transition-duration: 180ms;
+   -webkit-transform: translate3d(0px, -75px, 0);
+   transform: translate3d(0px, -75px, 0);
+   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+}
+.menu-open:checked ~ .menu-item:nth-child(4) {
+   transition-duration: 280ms;
+   -webkit-transition-duration: 280ms;
+   -webkit-transform: translate3d(60px, 50px, 0);
+   transform: translate3d(60px, 50px, 0);
+   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+}
+.menu-open:checked ~ .menu-item:nth-child(5) {
+   transition-duration: 380ms;
+   -webkit-transition-duration: 380ms;
+   -webkit-transform: translate3d(-60px, 50px, 0);
+   transform: translate3d(-60px, 50px, 0);
+   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+}
+
+
+/* menu-points */
+.points {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.5px;
+  margin-top: -2.5px;
+}
+.p-1 {
+  -webkit-transform: translate3d(0, -7px, 0);
+  transform: translate3d(0, -7px, 0);
+}
+.p-2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.p-3 {
+  -webkit-transform: translate3d(0, 7px, 0);
+  transform: translate3d(0, 7px, 0);
+}
+.menu i {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}

@@ -62,14 +62,25 @@
         <img src="images/user.png" class="profile_image" alt="">
         <h4>Rajeev</h4>
       </div>
+        <h3>My QR Codes:</h3>
         <a href="#"><i class="fa fa-list-ul"></i><span>Dashboard</span></a>
         <a href="#"><i class="fa fa-bolt"></i><span>Active QR's</span></a>
-        <a href="#"><i class="fa fa-pause-circle"></i><span>Inactive QR's</span></a>    
+        <a href="#"><i class="fa fa-pause-circle"></i><span>Inactive QR's</span></a>
+        <h3>My Folders:</h3>    
         <a href="#"><i class="fa fa-folder"></i><span>Folder-1</span></a>
         <a href="#"><i class="fa fa-folder"></i><span>Folder-2</span></a>
         <a href="#"><i class="fa fa-plus-circle"></i><span><b>New Folder</b></span></a>
     </div>
     <!--sidebar end-->
+    <div class="heading">
+        <div class="heading1">
+            <h1>Active</h1>
+        </div>
+        <div class="heading2">
+            <h2>Last Created  <i class="fa fa-caret-down" aria-hidden="true"></i></h2>
+        </div>
+        
+    </div>
 
     <div class="dashtabs">
 
@@ -100,9 +111,20 @@
                   </div>
               </div>
               <div class="QRInfo_3">
-                  <button>
-                    <i class="far fa-arrow-alt-circle-down"></i>
+                <button class="dbutton">
+                    Download  <i class="far fa-arrow-alt-circle-down"></i>
                   </button>
+                <div class="menu">
+                    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open">                
+                    <label class="menu-open-button" for="menu-open">
+                      <span class="points p-1"></span>
+                      <span class="points p-2"></span>
+                      <span class="points p-3"></span>
+                    </label>                  
+                    <a href="" class="menu-item item-1"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+                    <a href="" class="menu-item item-2"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                    <a href="" class="menu-item item-3"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                </div>
               </div>
           </div>
           <div class="QRInfo">
@@ -131,8 +153,8 @@
                   </div>
               </div>
               <div class="QRInfo_3">
-                  <button>
-                    <i class="far fa-arrow-alt-circle-down"></i>
+                  <button class="dbutton">
+                    Download  <i class="far fa-arrow-alt-circle-down"></i>
                   </button>
               </div>
           </div>
