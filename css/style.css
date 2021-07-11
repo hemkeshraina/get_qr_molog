@@ -635,12 +635,12 @@ textarea{
   background-color: #F6F7F9;
   position: relative;
   margin-top: 50px;
-  box-shadow: 2px 2px 31px 10px rgba(0,28,67, 0.31);
+  box-shadow: 18px 2px 31px 0px rgba(0,28,67, 0.31);
   display: flex;
   width: 350px;
   height: 610px;
-  border-radius:50px;
-  /* float: right; */
+  border-radius: 0 50px 50px 0;
+  
 }
 .grids-container {
   display:flex;
