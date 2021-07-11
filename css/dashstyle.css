@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: rgba(181,163,255,0.25);
+    background-color: rgb(220,220,220,0.25);
   }
   
   header{
@@ -30,7 +30,7 @@ body{
   
   .logout_btn{
     padding: 5px;
-    color:#49398A;
+    color:#060199;
     text-decoration: none;
     float: right;
     margin-top: -1.2%;
@@ -49,7 +49,7 @@ body{
   .sidebar{
     z-index: 1;
     top: 0;
-    background: #49398a;
+    background: #060199;
     margin-top: 70px;
     padding-top: 30px;
     position: fixed;
@@ -95,7 +95,7 @@ body{
   }
   
   .sidebar a:hover{
-    color:#49398A;
+    color:#060199;
     background: #F4F2FF;
     
     width: 90%;
@@ -108,7 +108,7 @@ body{
   
   label #sidebar_btn{
     z-index: 1;
-    color: #49398A;
+    color: #060199;
     position: fixed;
     cursor: pointer;
     left: 300px;
@@ -119,7 +119,7 @@ body{
   }
   
   label #sidebar_btn:hover{
-    color:#49398A7c;
+    color:#0601997c;
   }
   
   #check:checked ~ .sidebar{
@@ -244,7 +244,7 @@ body{
     }
   
     .mobile_nav_items a:hover{
-        color:#49398A;
+        color:#060199;
         background: #F4F2FF;
         border-radius:50px;
         width: 90%;
@@ -360,7 +360,7 @@ body{
       justify-content: space-between;
       align-items: center; }
       .dashtabs_content_nav .heading {
-        color: #49398A;
+        color: #060199;
         font-size: 1.4rem;
         font-weight: 500; }
         .dashtabs_content_nav .heading > i {
@@ -407,7 +407,7 @@ body{
       justify-content: space-between;
       align-items: center; }
       .dashheader_user > i {
-        color: #49398A;
+        color: #060199;
         font-size: 1.3rem;
         cursor: pointer;
         padding: 1rem;
@@ -417,12 +417,12 @@ body{
       .dashheader_user > div {
         padding: 0.7rem 1rem; }
         .dashheader_user > div > i {
-          color: #49398A;
+          color: #060199;
           font-size: 1.3rem;
           cursor: pointer;
           margin-right: 0.5rem; }
         .dashheader_user > div > span {
-          color: #49398A;
+          color: #060199;
           font-size: 1.2rem;
           cursor: pointer; }
         .dashheader_user > div:hover {
@@ -447,10 +447,10 @@ body{
         .dashtabs_content .QRInfo_1 > span {
           font-size: 1.1rem;
           font-weight: 600;
-          color: #49398A; }
+          color: #060199; }
         .dashtabs_content .QRInfo_1 > h3 {
           font-size: 1.5rem;
-          color: #49398A;
+          color: #060199;
           margin: 0.5rem 0 1rem 0; }
           .dashtabs_content .QRInfo_1 > h3 > i {
             margin-right: 0.5rem; }
@@ -461,7 +461,7 @@ body{
           flex-wrap: wrap; }
           .dashtabs_content .QRInfo_1 > div > span {
             cursor: pointer;
-            color: #49398A;
+            color: #060199;
             width: 40%;
             margin-top: 0.4rem;
             font-size: 1.1rem; }
@@ -475,7 +475,7 @@ body{
           .dashtabs_content .QRInfo_2 > div > p > span {
             display: block;
             font-size: 3rem;
-            color: #49398A; }
+            color: #060199; }
           .dashtabs_content .QRInfo_2 > div > p > small {
             font-size: 1.2rem; }
         .dashtabs_content .QRInfo_2 > div > button {
@@ -500,15 +500,15 @@ body{
         padding: 0.5rem;
         font-size: 3rem;
         cursor: pointer; } */
-        background: hsla(252, 42%, 38%, 1);
+        background: hsla(242, 99%, 30%, 1);
 
-        background: linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+        background: linear-gradient(90deg, hsla(242, 99%, 30%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
 
-        background: -moz-linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+        background: -moz-linear-gradient(90deg, hsla(242, 99%, 30%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
 
-        background: -webkit-linear-gradient(90deg, hsla(252, 42%, 38%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+        background: -webkit-linear-gradient(90deg, hsla(242, 99%, 30%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
 
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49398A", endColorstr="#524175", GradientType=1 );
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#060199", endColorstr="#0B3866", GradientType=1 );
         border: none;
         color: white;       
         padding: 15px 32px;
@@ -552,13 +552,13 @@ body{
 .heading1 h1{
   font-family: 'Source Sans Pro', sans-serif;
   font-size:25px;
-  color: #49398A;
+  color: #060199;
   margin-left: 20rem;
 }
 
 .heading2 h2{
   
-  color: #49398A;
+  color: #060199;
   float:right;
 }
 
@@ -588,7 +588,7 @@ body{
 
 .menu-item, .menu-open-button {
   position: absolute;
-  background: #49398A;
+  background: #060199;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -693,7 +693,7 @@ body{
 
 .menu1-item, .menu1-open-button {
   position: absolute;
-  background: #49398A;
+  background: #060199;
   border-radius: 50%;
   width: 60px;
   height: 60px;
