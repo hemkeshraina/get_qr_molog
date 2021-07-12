@@ -284,7 +284,7 @@ button:hover {
     font-size: 18px;
     color: #fff;
     width: 100%;
-    background: #8566FF;
+    background: #001c43;
     border: none;
     padding: 15px 20px;
     font-weight: 700;
@@ -297,7 +297,7 @@ button:hover {
 }
 
 .w3l-workinghny-form .btn-style:hover {
-    background: #8566ffa8;
+    background: #001c4380;
     transform: translateY(-3px);
 }
 
