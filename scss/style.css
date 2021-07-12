@@ -3,15 +3,18 @@
   background: #E8EAEE;
   width: 850px;
   min-height: 610px;
+  -webkit-margin-start: 100px;
+          margin-inline-start: 100px;
   position: relative;
   margin-top: 50px;
-  border-radius: 50px 0 0 50px;
+  -webkit-box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
+          box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
+  border-radius: 10px 0 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
-          box-shadow: 2px 2px 31px 10px rgba(0, 28, 67, 0.31);
 }
+
 
 .logo {
   float: right;
