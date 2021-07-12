@@ -838,14 +838,14 @@ header{
 
 .bar-graph-horizontal > div {
   float: left;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   width: 100%;
 }
 
 .bar-graph-horizontal .year {
   float: left;
   margin-top: 18px;
-  width: 70px;
+  width: 90px;
 }
 
 .bar-graph-horizontal .bar {
@@ -930,7 +930,7 @@ header{
     width: 0;
   }
   100% {
-    width: 76.8%;
+    width: 70%;
   }
 }
 
